@@ -8,7 +8,7 @@ module.exports= async function(){
     // const url='mongodb://192.168.1.2:27017/akkoMenu'; 
     // mongodb+srv://vercel-admin-user:<password>@cluster0.syzc5vp.mongodb.net/test
     // const url='mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mongodb.net?retryWrites=true&w=majority';  
-    const url='mongodb+srv://vercel-admin-user:<password>@cluster0.syzc5vp.mongodb.net/akkoMenu';  
+    const url='mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mongodb.net/akkoMenu';  
 
     mongoose.set('strictQuery', true);
    
