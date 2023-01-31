@@ -24,11 +24,15 @@ router.get('/byemail/:email', async (req,res)=>{
 
 router.get('/allUsers', async (req,res)=>{
     const u = await User.find()
+    
+    if(!User){
+    res.send('the schema has problem')
+    }
 
     if(!u) return res.status(400).send('invalid user to fetch')
  
  
-     res.status(200).res.send(u)
+      res.send(u)
 })
 
 router.patch('/', async (req,res)=>{
