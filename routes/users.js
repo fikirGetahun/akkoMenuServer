@@ -29,12 +29,7 @@ router.get('/allUsers', async (req,res)=>{
 
     if(!u) return res.status(400).send('invalid user to fetch')
  
-    if(!User){
-        return res.send('the schema has problem')
-        }else{
-            User.length
-            return   res.send(`${User.length}`)
-        }
+    
       res.send(u)
 })
 

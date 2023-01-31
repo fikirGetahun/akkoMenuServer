@@ -8,4 +8,4 @@ mongoimport --uri mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mon
 mongoimport --uri mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mongodb.net/akkoMenu --collection users --type json --jsonArray --file users.json
 
 
- 
+ mongoimport --uri mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mongodb.net/akkoMenu --collection users --type csv --fields __v,_id,email,name,password --file users.json
