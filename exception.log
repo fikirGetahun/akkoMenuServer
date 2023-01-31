@@ -762,3 +762,31 @@ TypeError: require(...) is not a function
     at Function.Module._load (node:internal/modules/cjs/loader:839:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
+error: 31/01/2023 15:05:14 uncaughtException: Unexpected token ':'
+C:\Users\Fetun\Documents\server\startup\db.js:9
+    mongodb+srv://vercel-admin-user:<password>@cluster0.syzc5vp.mongodb.net/test
+               ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:12:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 31/01/2023 15:05:19 unhandledRejection: bad auth : authentication failed
+MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\connection.js:230:30)
+    at MessageStream.<anonymous> (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+    at TLSSocket.emit (node:events:513:28)
