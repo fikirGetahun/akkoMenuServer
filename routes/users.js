@@ -26,7 +26,7 @@ router.get('/allUsers', async (req,res)=>{
     const u = await User.find()
 
     if(!u) return res.status(400).send('invalid user to fetch')
-
+return u;
     res.send(u)
 })
 
