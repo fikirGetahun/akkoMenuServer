@@ -167,7 +167,7 @@ router.get('/product/:id', async (req,res)=>{
     
     let data = await Food.findById(req.params.id)
 
-    if(!data) return res.status(404).send('error: product not found')
+    if(!data) return res.status(404).send('error: product not foundzzz')
 
     res.send(data)
 })
