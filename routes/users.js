@@ -1,7 +1,6 @@
-const jwt=require('jsonwebtoken');
+ 
 const auth=require('../middleware/auth');
-const config= require('config')
-const bcrypt = require('bcrypt');
+ const bcrypt = require('bcrypt');
 const _= require('lodash');
 const {User,Validate} = require('../model/user');
 const express= require('express');
