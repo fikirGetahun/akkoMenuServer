@@ -149,7 +149,8 @@ router.get('/', async (req,res)=>{
     const data = await Food.find()
     if(!data) return res.status(404).send('error on db')
 
-    res.send(data)
+
+     res.send(`${data}`)
 })
 
  
