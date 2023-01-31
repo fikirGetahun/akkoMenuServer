@@ -25,15 +25,15 @@ router.get('/byemail/:email', async (req,res)=>{
 router.get('/allUsers', async (req,res)=>{
     const u = await User.find()
     
-    if(!User){
-    res.send('the schema has problem')
-    }else{
-        res.send('it works')
-    }
+  
 
     if(!u) return res.status(400).send('invalid user to fetch')
  
- 
+    if(!User){
+        return res.send('the schema has problem')
+        }else{
+            return   res.send('it works')
+        }
       res.send(u)
 })
 
