@@ -1,0 +1,699 @@
+error: 20/12/2022 11:38:28 unhandledRejection: connect ECONNREFUSED 0.0.0.0:27017
+MongooseServerSelectionError: connect ECONNREFUSED 0.0.0.0:27017
+    at NativeConnection.Connection.openUri (F:\Node demo\node_modules\mongoose\lib\connection.js:825:32)
+    at F:\Node demo\node_modules\mongoose\lib\index.js:417:10
+    at F:\Node demo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\Node demo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (F:\Node demo\node_modules\mongoose\lib\index.js:1270:10)
+    at Mongoose.connect (F:\Node demo\node_modules\mongoose\lib\index.js:416:20)
+    at module.exports (F:\Node demo\startup\db.js:10:19)
+    at Object.<anonymous> (F:\Node demo\index.js:6:24)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 24/12/2022 12:25:26 uncaughtException: loginRoute is not defined
+ReferenceError: loginRoute is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\Node demo\index.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+error: 27/12/2022 11:01:52 uncaughtException: Cannot use import statement outside a module
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:1
+import auth from '../middleware/auth'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 27/12/2022 11:02:53 uncaughtException: Cannot use import statement outside a module
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:1
+import auth from '../middleware/auth'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 27/12/2022 11:06:17 uncaughtException: Cannot use import statement outside a module
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:2
+import { Category, Validate } from '../model/category'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 27/12/2022 11:06:39 uncaughtException: Cannot use import statement outside a module
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:4
+import { Category, Validate } from '../model/category'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 27/12/2022 11:06:59 uncaughtException: Missing initializer in destructuring declaration
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:4
+const{ Category, Validate } from '../model/category'
+     ^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 27/12/2022 13:37:24 unhandledRejection: Category validation failed: image: Path `image` is required.
+ValidationError: Category validation failed: image: Path `image` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 27/12/2022 13:38:12 unhandledRejection: Category validation failed: image: Path `image` is required.
+ValidationError: Category validation failed: image: Path `image` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 27/12/2022 13:39:09 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:25:34 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:26:17 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:27:22 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:29:22 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:33:48 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:35:21 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 27/12/2022 15:40:38 uncaughtException: Unexpected identifier
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\model\category.js:82
+        order: Joi.number()
+        ^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:4:30)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 28/12/2022 12:01:45 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:04:08 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:06:05 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:06:57 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:08:14 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:09:49 unhandledRejection: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:12:32 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:13:09 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:31:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:14:02 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:31:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 12:15:04 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:31:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 28/12/2022 13:24:39 unhandledRejection: Cannot read properties of undefined (reading 'send')
+TypeError: Cannot read properties of undefined (reading 'send')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:37:42
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:365:14)
+error: 28/12/2022 13:26:01 unhandledRejection: Cannot read properties of undefined (reading 'details')
+TypeError: Cannot read properties of undefined (reading 'details')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:37:50
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:365:14)
+error: 29/12/2022 10:31:21 uncaughtException: Identifier 'Validation' has already been declared
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:6
+ const {Price , Validation} = require('../model/price')
+                ^
+
+SyntaxError: Identifier 'Validation' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 29/12/2022 10:41:04 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 10:42:06 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:13:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 29/12/2022 10:43:00 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:13:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 29/12/2022 10:43:11 unhandledRejection: alert is not defined
+ReferenceError: alert is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:13:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 29/12/2022 10:43:21 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 10:43:29 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 10:53:13 unhandledRejection: x is not defined
+ReferenceError: x is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:28:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 10:57:26 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 10:58:08 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 10:59:01 unhandledRejection: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+ValidationError: Food validation failed: name: Path `name` is required., categoryId: Path `categoryId` is required., info: Path `info` is required., order: Path `order` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 29/12/2022 11:09:18 unhandledRejection: Validation is not defined
+ReferenceError: Validation is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:11:21
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 29/12/2022 11:18:52 unhandledRejection: Price validation failed: price: Cast to Number failed for value "pricee" (type string) at path "price", oldPrice: Cast to Number failed for value "oldprice" (type string) at path "oldPrice"
+ValidationError: Price validation failed: price: Cast to Number failed for value "pricee" (type string) at path "price", oldPrice: Cast to Number failed for value "oldprice" (type string) at path "oldPrice"
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:121:12)
+    at new model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5048:15)
+    at model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5043:16)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:23:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 11:23:16 unhandledRejection: Price validation failed: oldPrice: Cast to Number failed for value "oldprice" (type string) at path "oldPrice"
+ValidationError: Price validation failed: oldPrice: Cast to Number failed for value "oldprice" (type string) at path "oldPrice"
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:121:12)
+    at new model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5048:15)
+    at model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5043:16)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:23:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 11:23:47 unhandledRejection: Arguments must be aggregate pipeline operators
+Error: Arguments must be aggregate pipeline operators
+    at Aggregate.append (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\aggregate.js:148:11)
+    at new Aggregate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\aggregate.js:58:17)
+    at Function.aggregate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:4426:21)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:32:29
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 11:31:45 unhandledRejection: Food.aggregate(...).pretty is not a function
+TypeError: Food.aggregate(...).pretty is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:49:8
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 11:46:31 unhandledRejection: datax is not defined
+ReferenceError: datax is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:61:14
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 12:25:24 unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:162:21)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:44:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 12:25:53 unhandledRejection: Invalid status code: {
+  name: 'req.body.name',
+  categoryId: 'req.body.categoryId',
+  info: 'req.body.info',
+  order: 2,
+  _id: new ObjectId("63ad5d21317695c874a1fc61"),
+  __v: 0
+}
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: {
+  name: 'req.body.name',
+  categoryId: 'req.body.categoryId',
+  info: 'req.body.info',
+  order: 2,
+  _id: new ObjectId("63ad5d21317695c874a1fc61"),
+  __v: 0
+}
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:162:21)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:43:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 29/12/2022 12:40:04 uncaughtException: Identifier 'Validation' has already been declared
+C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:6
+ const {Price, Validation } = require('../model/price')
+               ^
+
+SyntaxError: Identifier 'Validation' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+    at Module._compile (node:internal/modules/cjs/loader:1090:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 30/12/2022 09:19:57 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:22:34 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:23:56 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:25:17 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:26:57 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:30:56 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:33:57 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:19:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 30/12/2022 09:36:11 unhandledRejection: Food validation failed: image: Path `image` is required.
+ValidationError: Food validation failed: image: Path `image` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 30/12/2022 09:44:44 unhandledRejection: Price validation failed: halfPrice: Cast to Boolean failed for value "" (type string) at path "halfPrice" because of "CastError"
+ValidationError: Price validation failed: halfPrice: Cast to Boolean failed for value "" (type string) at path "halfPrice" because of "CastError"
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:121:12)
+    at new model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5048:15)
+    at model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5043:16)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:28:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 30/12/2022 09:46:15 unhandledRejection: Price validation failed: halfPrice: Path `halfPrice` is required.
+ValidationError: Price validation failed: halfPrice: Path `halfPrice` is required.
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+error: 30/12/2022 15:19:38 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:83:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 30/12/2022 15:25:15 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:83:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 03/01/2023 15:26:20 unhandledRejection: Cast to ObjectId failed for value "63b2942a6171bb1d27927d30d" (type string) at path "_id" for model "Food"
+CastError: Cast to ObjectId failed for value "63b2942a6171bb1d27927d30d" (type string) at path "_id" for model "Food"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 03/01/2023 15:39:18 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 03/01/2023 16:30:27 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Price"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Price"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 11:44:05 unhandledRejection: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 12:00:24 unhandledRejection: Cast to ObjectId failed for value "{ name: 'fikir ' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ name: 'fikir ' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 12:01:40 unhandledRejection: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 12:03:07 unhandledRejection: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 12:03:39 unhandledRejection: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ name: '' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 12:06:47 unhandledRejection: u is not defined
+ReferenceError: u is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\users.js:43:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 09/01/2023 14:47:05 uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:148:23)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 16/01/2023 11:00:02 unhandledRejection: connect ECONNREFUSED 192.168.1.2:27017
+MongooseServerSelectionError: connect ECONNREFUSED 192.168.1.2:27017
+    at NativeConnection.Connection.openUri (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\connection.js:825:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:419:10
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:1272:10)
+    at Mongoose.connect (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:418:20)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\db.js:12:19)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\index.js:12:24)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 24/01/2023 15:15:06 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 24/01/2023 15:16:15 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 24/01/2023 15:17:59 unhandledRejection: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 24/01/2023 17:28:04 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:20:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 25/01/2023 14:14:51 unhandledRejection: escapeStringRegexp is not defined
+ReferenceError: escapeStringRegexp is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\food.js:140:20
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
