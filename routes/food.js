@@ -1,6 +1,5 @@
 const express = require('express')
-const db2 = require('../startup/db2')
-const router = express.Router()
+ const router = express.Router()
 // const auth = require('../middleware/admin')
 const {Food , Validation   } = require('../model/food')
  const {Price  } = require('../model/price')
