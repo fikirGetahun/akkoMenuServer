@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 
  
 
-const Food =   new mongoose.Schema({
+const Food =   mongoose.model('Food', new mongoose.Schema({
     name: {
         type: String,
         required:true,
@@ -35,7 +35,7 @@ const Food =   new mongoose.Schema({
     },
     isActive: Boolean
 
-},{ collection : 'foods' })
+}))
 
 
 const Validation = (Food)=>{
