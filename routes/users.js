@@ -33,7 +33,7 @@ router.get('/allUsers', async (req,res)=>{
         return res.send('the schema has problem')
         }else{
             User.length
-            return   res.send(User.length)
+            return   res.send(`${User.length}`)
         }
       res.send(u)
 })
