@@ -15,8 +15,8 @@ require('./startup/validation')();
 
 // app.use('/login2', loginRoute )
 
-// const port=process.env.PORT || 3002;
-const port=3000
+const port=process.env.PORT || 3002;
+// const port=3000
 
 //app.listen(port,()=>winston.info(`Listinging on port ${port} ... ${new Date()}`));
 app.listen(port,()=>logger.log('info',`Listinging on port ${port} ... ${new Date()}`));
