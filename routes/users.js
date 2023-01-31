@@ -27,6 +27,8 @@ router.get('/allUsers', async (req,res)=>{
     
     if(!User){
     res.send('the schema has problem')
+    }else{
+        res.send('it works')
     }
 
     if(!u) return res.status(400).send('invalid user to fetch')
