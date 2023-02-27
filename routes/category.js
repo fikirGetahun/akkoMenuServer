@@ -1,16 +1,42 @@
 const express = require('express')
-
+const multer = require('multer')
+const fileupload = require('express-fileupload')
 const auth = require( '../middleware/auth')
 const{ Category, Validate }= require( '../model/category')
 const router = express.Router()
+const path = require('path')
+// router.use(fileupload())
+// const storage = multer.memoryStorage();
+// const upload = multer({ storage });
 
-router.post('/',  async (req,res)=>{
-    const {error} = Validate(req.body)
-    if(error) return res.status(400).send(error.details[0].message)
+// app.use(express.static("./uploads"));
+
+// const storage = multer.diskStorage({
+//     destination: (req, file, cb) =>{
+//         cb(null, 'uploads')
+//     },
+//     filename: (req,file , cb)=>{
+//         cb(null, Date.now()+path.extname(file.originalname))
+//     }
+// })
+
+// const upload = multer({storage: storage, limits: { fieldSize: 10 * 1024 * 1024 }})  
+
+router.post('/' ,async (req,res)=>{
+    // const {error} = Validate(req.body)
+    // if(error) return res.status(400).send(error.details[0].message)
     // if(error) return res.status(400).send("this is errrrrorr")
-
+    console.log(req.files)
+    res.send(req.files)
+        let ava = req.files
+        let extraname = process.hrtime();
+        let path = './uploads/'+extraname+ava.name;
+         
+       
+            ava.mv(path)
+        
  
-        const data = Category({name:req.body.name, image:req.body.image, order: req.body.order})
+        const data = Category({name:req.body.name, image:path })
         const result =await data.save()
         return res.send(result);
    

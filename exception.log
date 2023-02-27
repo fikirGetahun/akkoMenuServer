@@ -697,96 +697,818 @@ ReferenceError: escapeStringRegexp is not defined
     at param (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:376:14)
     at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:421:3)
     at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
-error: 31/01/2023 13:05:05 uncaughtException: Cannot find module 'axios'
-Require stack:
-- C:\Users\Fetun\Documents\server\routes\price.js
-- C:\Users\Fetun\Documents\server\startup\routes.js
-- C:\Users\Fetun\Documents\server\index.js
-Error: Cannot find module 'axios'
-Require stack:
-- C:\Users\Fetun\Documents\server\routes\price.js
-- C:\Users\Fetun\Documents\server\startup\routes.js
-- C:\Users\Fetun\Documents\server\index.js
-    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
-    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
-    at Module.require (node:internal/modules/cjs/loader:1028:19)
-    at require (node:internal/modules/cjs/helpers:102:18)
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\routes\price.js:1:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Module.require (node:internal/modules/cjs/loader:1028:19)
-error: 31/01/2023 13:13:43 uncaughtException: require(...) is not a function
-TypeError: require(...) is not a function
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:13:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
-error: 31/01/2023 13:13:47 uncaughtException: require(...) is not a function
-TypeError: require(...) is not a function
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:13:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
-error: 31/01/2023 13:14:16 uncaughtException: require(...) is not a function
-TypeError: require(...) is not a function
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:13:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
-error: 31/01/2023 13:15:03 uncaughtException: require(...) is not a function
-TypeError: require(...) is not a function
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:13:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
-error: 31/01/2023 13:15:38 uncaughtException: require(...) is not a function
-TypeError: require(...) is not a function
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:13:28)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
-error: 31/01/2023 15:05:14 uncaughtException: Unexpected token ':'
-C:\Users\Fetun\Documents\server\startup\db.js:9
-    mongodb+srv://vercel-admin-user:<password>@cluster0.syzc5vp.mongodb.net/test
-               ^
-
-SyntaxError: Unexpected token ':'
-    at Object.compileFunction (node:vm:360:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1055:15)
-    at Module._compile (node:internal/modules/cjs/loader:1090:27)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
-    at Module.load (node:internal/modules/cjs/loader:1004:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
-    at Module.require (node:internal/modules/cjs/loader:1028:19)
-    at require (node:internal/modules/cjs/helpers:102:18)
-    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:12:1)
-    at Module._compile (node:internal/modules/cjs/loader:1126:14)
-error: 31/01/2023 15:05:19 unhandledRejection: bad auth : authentication failed
+error: 31/01/2023 12:06:00 unhandledRejection: bad auth : authentication failed
 MongoServerError: bad auth : authentication failed
-    at Connection.onMessage (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\connection.js:230:30)
-    at MessageStream.<anonymous> (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at Connection.onMessage (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongodb\lib\cmap\connection.js:230:30)
+    at MessageStream.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongodb\lib\cmap\connection.js:61:60)
     at MessageStream.emit (node:events:513:28)
-    at processIncomingData (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
-    at MessageStream._write (C:\Users\Fetun\Documents\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at processIncomingData (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
     at writeOrBuffer (node:internal/streams/writable:391:12)
     at _write (node:internal/streams/writable:332:10)
     at MessageStream.Writable.write (node:internal/streams/writable:336:10)
     at TLSSocket.ondata (node:internal/streams/readable:754:22)
     at TLSSocket.emit (node:events:513:28)
+error: 01/02/2023 09:53:18 unhandledRejection: connect ECONNREFUSED 192.168.1.2:27017
+MongooseServerSelectionError: connect ECONNREFUSED 192.168.1.2:27017
+    at NativeConnection.Connection.openUri (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\connection.js:825:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:419:10
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:1272:10)
+    at Mongoose.connect (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:418:20)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\db.js:14:19)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\index.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 01/02/2023 09:55:10 unhandledRejection: connect ECONNREFUSED 192.168.1.2:27017
+MongooseServerSelectionError: connect ECONNREFUSED 192.168.1.2:27017
+    at NativeConnection.Connection.openUri (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\connection.js:825:32)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:419:10
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:1272:10)
+    at Mongoose.connect (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\index.js:418:20)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\db.js:14:19)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\index.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+error: 01/02/2023 10:13:18 unhandledRejection: Method no longer accepts array arguments: valid
+Error: Method no longer accepts array arguments: valid
+    at new module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.exports.verifyFlat (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\common.js:214:9)
+    at internals.Base.valid (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\base.js:297:16)
+    at Validate (C:\Users\Fetun\Documents\akko\akko-menu\src\node\model\category.js:80:29)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:9:21
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+error: 01/02/2023 10:14:23 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:12:32
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 10:16:04 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:12:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 10:17:47 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:13:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 11:29:02 uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\application.js:224:7)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:24:5)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\index.js:13:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+error: 01/02/2023 12:20:54 unhandledRejection: Method no longer accepts array arguments: valid
+Error: Method no longer accepts array arguments: valid
+    at new module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.exports.verifyFlat (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\common.js:214:9)
+    at internals.Base.valid (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\base.js:297:16)
+    at Validate (C:\Users\Fetun\Documents\akko\akko-menu\src\node\model\category.js:80:29)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:20:21
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+error: 01/02/2023 12:21:40 unhandledRejection: Schema can only contain plain objects
+Error: Schema can only contain plain objects
+    at new module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.internals.schema (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\compile.js:88:5)
+    at Object.exports.schema (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\compile.js:17:26)
+    at internals.Base.$_compile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\base.js:646:24)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\types\keys.js:262:92
+    at Object.exports.tryWithPath (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\common.js:176:16)
+    at internals.Base.method [as keys] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\types\keys.js:262:32)
+    at Object.internals.schema (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\compile.js:90:25)
+    at Object.exports.schema (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\joi\lib\compile.js:17:26)
+error: 01/02/2023 13:34:41 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:24:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:36:13 uncaughtException: multer is not defined
+ReferenceError: multer is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:17:16)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 01/02/2023 13:36:16 uncaughtException: multer is not defined
+ReferenceError: multer is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:17:16)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 01/02/2023 13:36:34 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:39:17 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:42:50 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:49:58 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:50:45 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:53:19 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 13:54:27 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:04:25 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:04:54 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:12:15 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:17:40 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:18:15 uncaughtException: multer is not defined
+ReferenceError: multer is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:8:17)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 01/02/2023 14:18:42 unhandledRejection: Cannot read properties of undefined (reading 'avatar')
+TypeError: Cannot read properties of undefined (reading 'avatar')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:25:29
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+error: 01/02/2023 14:19:11 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:33:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+error: 01/02/2023 14:20:30 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:33:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+error: 01/02/2023 14:21:20 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:33:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:42:31 unhandledRejection: Cannot read properties of undefined (reading 'filename')
+TypeError: Cannot read properties of undefined (reading 'filename')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:30:26
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:43:22 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:39:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 01/02/2023 14:59:50 uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\index.js:31:21)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+error: 01/02/2023 15:03:14 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:23:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 02/02/2023 12:10:20 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:23:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 02/02/2023 12:18:12 unhandledRejection: error is not defined
+ReferenceError: error is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:12:5
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 02/02/2023 12:18:42 unhandledRejection: path is not defined
+ReferenceError: path is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:23:58
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (C:\Users\Fetun\Documents\akko\akko-menu\src\node\middleware\auth.js:13:5)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+error: 02/02/2023 12:19:33 uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:11:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 02/02/2023 12:29:02 uncaughtException: The "path" argument must be of type string. Received type number (1675330142565)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330142565)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:29:44 uncaughtException: The "path" argument must be of type string. Received type number (1675330184500)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330184500)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:30:17 uncaughtException: The "path" argument must be of type string. Received type number (1675330217527)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330217527)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:30:34 uncaughtException: The "path" argument must be of type string. Received type number (1675330234623)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330234623)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:30:53 uncaughtException: The "path" argument must be of type string. Received type number (1675330253634)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330253634)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:31:24 uncaughtException: The "path" argument must be of type string. Received type number (1675330284701)
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type number (1675330284701)
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:429:7)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:37:28
+    at DiskStorage.filename [as getFilename] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:18:9)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:34:10
+    at DiskStorage.destination [as getDestination] (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:15:9)
+    at DiskStorage._handleFile (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\multer\index.js:8:3)
+error: 02/02/2023 12:49:24 unhandledRejection: Category validation failed: image: Cast to Buffer failed for value "<ref *1> {
+  resolve: [Function: resolve],
+  normalize: [Function: normalize],
+  isAbsolute: [Function: isAbsolute],
+  join: [Function: join],
+  relative: [Function: relative],
+  toNamespacedPath: [Function: toNamespacedPath],
+  dirname: [Function: dirname],
+  basename: [Function: basename],
+  extname: [Function: extname],
+  format: [Function: bound _format],
+  parse: [Function: parse],
+  sep: '\\',
+  delimiter: ';',
+  win32: [Circular *1],
+  posix: <ref *2> {
+    resolve: [Function: resolve],
+    normalize: [Function: normalize],
+    isAbsolute: [Function: isAbsolute],
+    join: [Function: join],
+    relative: [Function: relative],
+    toNamespacedPath: [Function: toNamespacedPath],
+    dirname: [Function: dirname],
+    basename: [Function: basename],
+    extname: [Function: extname],
+    format: [Function: bound _format],
+    parse: [Function: parse],
+    sep: '/',
+    delimiter: ':',
+    win32: [Circular *1],
+    posix: [Circular *2],
+    _makeLong: [Function: toNamespacedPath]
+  },
+  _makeLong: [Function: toNamespacedPath]
+}" (type Object) at path "image"
+ValidationError: Category validation failed: image: Cast to Buffer failed for value "<ref *1> {
+  resolve: [Function: resolve],
+  normalize: [Function: normalize],
+  isAbsolute: [Function: isAbsolute],
+  join: [Function: join],
+  relative: [Function: relative],
+  toNamespacedPath: [Function: toNamespacedPath],
+  dirname: [Function: dirname],
+  basename: [Function: basename],
+  extname: [Function: extname],
+  format: [Function: bound _format],
+  parse: [Function: parse],
+  sep: '\\',
+  delimiter: ';',
+  win32: [Circular *1],
+  posix: <ref *2> {
+    resolve: [Function: resolve],
+    normalize: [Function: normalize],
+    isAbsolute: [Function: isAbsolute],
+    join: [Function: join],
+    relative: [Function: relative],
+    toNamespacedPath: [Function: toNamespacedPath],
+    dirname: [Function: dirname],
+    basename: [Function: basename],
+    extname: [Function: extname],
+    format: [Function: bound _format],
+    parse: [Function: parse],
+    sep: '/',
+    delimiter: ':',
+    win32: [Circular *1],
+    posix: [Circular *2],
+    _makeLong: [Function: toNamespacedPath]
+  },
+  _makeLong: [Function: toNamespacedPath]
+}" (type Object) at path "image"
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:121:12)
+    at new model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5048:15)
+    at model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5043:16)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:39:22
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+error: 02/02/2023 12:50:06 unhandledRejection: Category validation failed: image: Cast to Buffer failed for value "<ref *1> {
+  resolve: [Function: resolve],
+  normalize: [Function: normalize],
+  isAbsolute: [Function: isAbsolute],
+  join: [Function: join],
+  relative: [Function: relative],
+  toNamespacedPath: [Function: toNamespacedPath],
+  dirname: [Function: dirname],
+  basename: [Function: basename],
+  extname: [Function: extname],
+  format: [Function: bound _format],
+  parse: [Function: parse],
+  sep: '\\',
+  delimiter: ';',
+  win32: [Circular *1],
+  posix: <ref *2> {
+    resolve: [Function: resolve],
+    normalize: [Function: normalize],
+    isAbsolute: [Function: isAbsolute],
+    join: [Function: join],
+    relative: [Function: relative],
+    toNamespacedPath: [Function: toNamespacedPath],
+    dirname: [Function: dirname],
+    basename: [Function: basename],
+    extname: [Function: extname],
+    format: [Function: bound _format],
+    parse: [Function: parse],
+    sep: '/',
+    delimiter: ':',
+    win32: [Circular *1],
+    posix: [Circular *2],
+    _makeLong: [Function: toNamespacedPath]
+  },
+  _makeLong: [Function: toNamespacedPath]
+}" (type Object) at path "image"
+ValidationError: Category validation failed: image: Cast to Buffer failed for value "<ref *1> {
+  resolve: [Function: resolve],
+  normalize: [Function: normalize],
+  isAbsolute: [Function: isAbsolute],
+  join: [Function: join],
+  relative: [Function: relative],
+  toNamespacedPath: [Function: toNamespacedPath],
+  dirname: [Function: dirname],
+  basename: [Function: basename],
+  extname: [Function: extname],
+  format: [Function: bound _format],
+  parse: [Function: parse],
+  sep: '\\',
+  delimiter: ';',
+  win32: [Circular *1],
+  posix: <ref *2> {
+    resolve: [Function: resolve],
+    normalize: [Function: normalize],
+    isAbsolute: [Function: isAbsolute],
+    join: [Function: join],
+    relative: [Function: relative],
+    toNamespacedPath: [Function: toNamespacedPath],
+    dirname: [Function: dirname],
+    basename: [Function: basename],
+    extname: [Function: extname],
+    format: [Function: bound _format],
+    parse: [Function: parse],
+    sep: '/',
+    delimiter: ':',
+    win32: [Circular *1],
+    posix: [Circular *2],
+    _makeLong: [Function: toNamespacedPath]
+  },
+  _makeLong: [Function: toNamespacedPath]
+}" (type Object) at path "image"
+    at model.Document.invalidate (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:121:12)
+    at new model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5048:15)
+    at model (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\mongoose\lib\model.js:5043:16)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:39:22
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+error: 02/02/2023 12:52:08 uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:23:33)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 02/02/2023 12:52:30 uncaughtException: storage is not defined
+ReferenceError: storage is not defined
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:23:33)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akko-menu\src\node\startup\routes.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+error: 02/02/2023 12:52:56 unhandledRejection: Cannot read properties of undefined (reading 'name')
+TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:33:37
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 12:55:03 unhandledRejection: avatar is not defined
+ReferenceError: avatar is not defined
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:35:9
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 12:55:23 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:17
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 12:57:54 unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\response.js:162:21)
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:41:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 02/02/2023 12:58:28 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:18
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 12:59:16 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:34:14
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 13:01:50 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:18
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 13:04:09 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:18
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 13:04:24 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:18
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)
+error: 02/02/2023 13:05:18 unhandledRejection: ava.mv is not a function
+TypeError: ava.mv is not a function
+    at C:\Users\Fetun\Documents\akko\akko-menu\src\node\routes\category.js:36:17
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Fetun\Documents\akko\akko-menu\node_modules\express\lib\router\index.js:47:12)

@@ -1,6 +1,7 @@
- 
+const jwt=require('jsonwebtoken');
 const auth=require('../middleware/auth');
- const bcrypt = require('bcrypt');
+const config= require('config')
+const bcrypt = require('bcrypt');
 const _= require('lodash');
 const {User,Validate} = require('../model/user');
 const express= require('express');
@@ -24,13 +25,10 @@ router.get('/byemail/:email', async (req,res)=>{
 
 router.get('/allUsers', async (req,res)=>{
     const u = await User.find()
-    
-  
 
     if(!u) return res.status(400).send('invalid user to fetch')
- 
-    
-      res.send(u)
+
+    res.send(u)
 })
 
 router.patch('/', async (req,res)=>{
