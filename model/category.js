@@ -57,7 +57,7 @@ const Category = mongoose.model('Category', new mongoose.Schema({
         maxlength:50
     },
     image:{
-        type: Buffer,
+        type: String,
         required: true,
      
     },
@@ -76,10 +76,14 @@ const Validate = (Category) =>{
         name:Joi.string()
             .required()
             .min(4)
-            .max(50).label("name"),
-        image: Joi.any().label("image")
-        
-         
+            .max(50),
+        image: Joi.string()
+            .required()
+            ,
+        order: Joi.number()
+            
+            .min(1)
+            .max(200)
     })
     return schema.validate(Category)
  }

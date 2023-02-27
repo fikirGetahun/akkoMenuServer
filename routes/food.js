@@ -1,6 +1,5 @@
 const express = require('express')
-const db2 = require('../startup/db2')
-const router = express.Router()
+ const router = express.Router()
 // const auth = require('../middleware/admin')
 const {Food , Validation   } = require('../model/food')
  const {Price  } = require('../model/price')
@@ -150,7 +149,8 @@ router.get('/', async (req,res)=>{
     const data = await Food.find()
     if(!data) return res.status(404).send('error on db')
 
-    res.send(data)
+
+     res.send(data)
 })
 
  
@@ -168,7 +168,7 @@ router.get('/product/:id', async (req,res)=>{
     
     let data = await Food.findById(req.params.id)
 
-    if(!data) return res.status(404).send('error: product not found')
+    if(!data) return res.status(404).send('error: product not foundzzz')
 
     res.send(data)
 })
