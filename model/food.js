@@ -1,9 +1,6 @@
 const Joi = require('joi')
 const mongoose = require('mongoose')
 
-
- 
-
 const Food =   mongoose.model('Food', new mongoose.Schema({
     name: {
         type: String,

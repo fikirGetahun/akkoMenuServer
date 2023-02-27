@@ -83,7 +83,8 @@ const Validate = (Category) =>{
         order: Joi.number()
             
             .min(1)
-            .max(200)
+            .max(200),
+            isActive:Joi.boolean()
     })
     return schema.validate(Category)
  }

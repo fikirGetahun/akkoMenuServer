@@ -24,7 +24,11 @@ if(!validPassword) return res.status(400).send('Invalid email or password.');
 
   //const token=  jwt.sign({_id:user._id}, config.get('jwtPrivateKey'));
   const token=user.generateAuthToken();
-   res.send(token);
+  let body ={
+    token : token,
+    isAdmin: user.isAdmin
+  }
+   res.send(body);
 
 } catch (error) {
     res.send(error.message)

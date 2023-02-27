@@ -4,13 +4,13 @@ const auth = require( '../middleware/auth')
 const{ Category, Validate }= require( '../model/category')
 const router = express.Router()
 
-router.post('/',  async (req,res)=>{
+router.post('/',auth, async (req,res)=>{
     const {error} = Validate(req.body)
     if(error) return res.status(400).send(error.details[0].message)
     // if(error) return res.status(400).send("this is errrrrorr")
-
+    const co = await Category.find().count()
  
-        const data = Category({name:req.body.name, image:req.body.image, order: req.body.order})
+        const data = Category({name:req.body.name, image:req.body.image, order: co+1})
         const result =await data.save()
         return res.send(result);
    
@@ -18,7 +18,7 @@ router.post('/',  async (req,res)=>{
 
 
 router.get('/', async (req,res)=>{
-    const data = await Category.find();
+    const data = await Category.find().sort("order")
     if(!data) return res.status(404).send('page not found')
     res.send(data)
 })
@@ -80,7 +80,7 @@ router.put('/:id',auth, async (req, res)=>{
 
 router.delete('/:id', auth, async (req,res)=>{
     // let data = await Category.findByIdAndRemove(req.params.id)
-    let data = await Category.findByIdAndUpdate(req.params.id)
+    let data = await Category.findByIdAndRemove(req.params.id)
     if(!data) return res.status(404).send('error: Cant delete unkown product')
 
     res.send('Deleted!')
