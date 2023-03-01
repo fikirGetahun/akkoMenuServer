@@ -922,3 +922,15 @@ Error: listen EADDRINUSE: address already in use :::3002
     at Module.load (node:internal/modules/cjs/loader:1004:32)
     at Function.Module._load (node:internal/modules/cjs/loader:839:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+error: 01/03/2023 17:28:02 uncaughtException: listen EADDRINUSE: address already in use :::3002
+Error: listen EADDRINUSE: address already in use :::3002
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at Function.listen (C:\Users\Fetun\Documents\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\server\index.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)

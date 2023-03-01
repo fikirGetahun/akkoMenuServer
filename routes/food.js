@@ -7,6 +7,7 @@ const {Food , Validation   } = require('../model/food')
  const Category = require('../model/category')
 const { compareSync } = require('bcrypt')
 const auth = require( '../middleware/auth')
+const { default: mongoose } = require('mongoose')
 
 
 router.post('/' , async (req, res)=>{
@@ -183,7 +184,7 @@ router.get('/catWithProduct/:cid', async(req,res)=>{
     let data = await Food.aggregate([
         {
           $match: {
-            categoryId : req.params.cid
+            categoryId : mongoose.Types.ObjectId(req.params.cid)
           }
         },
         {
