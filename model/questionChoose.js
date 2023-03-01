@@ -10,7 +10,7 @@ const QuestionChoose = mongoose.model('QuestionChoose', new mongoose.Schema({
         },
         question_id:{
             required: true,
-            type:String
+            type:mongoose.Types.ObjectId
         }
 }));
 
