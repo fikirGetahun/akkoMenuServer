@@ -13,7 +13,7 @@ const Rating = mongoose.model('Rating', new mongoose.Schema({
             type:Number
         },
         feedBack:{
-            required: true,
+          
             type:String
         },
         time:{
