@@ -36,7 +36,7 @@ userSchema.methods.generateAuthToken = function() {
         _id: this._id ,
         isAdmin: this.isAdmin   
       },
-      config.get("jwtPrivateKey")
+      "Menu_jwtPrivateKey"
     );
     return token;
   };
