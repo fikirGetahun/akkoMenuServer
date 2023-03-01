@@ -18,7 +18,7 @@ const Price=   mongoose.model('Price', new mongoose.Schema({
     },
    
     foodId:{
-        type:String,
+        type:mongoose.Types.ObjectId,
         required:true,
         minlength:2,
         maxlength:1000

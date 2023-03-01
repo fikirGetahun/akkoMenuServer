@@ -177,6 +177,33 @@ router.get('/product/:id', async (req,res)=>{
 })
 
 
+router.get('/catWithProduct/:cid', async(req,res)=>{
+    var result;
+    
+    let data = await Food.aggregate([
+        {
+          $match: {
+            categoryId : req.params.cid
+          }
+        },
+        {
+        $lookup:   
+ 
+      {
+        from: "prices",
+        localField: "_id",
+        foreignField: "foodId",
+        as: "result"
+      }
+      }
+      ])
+
+    if(!data) return res.status(404).send('error: product not found')
+
+    res.send(data)
+})
+
+
 router.delete('/:id', auth, async (req,res)=>{
     let data = await Food.findByIdAndRemove(req.params.id)
     if(!data) return res.status(404).send('error: Cant delete unkown product')

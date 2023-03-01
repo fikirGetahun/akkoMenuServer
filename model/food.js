@@ -9,7 +9,7 @@ const Food =   mongoose.model('Food', new mongoose.Schema({
         maxlength:100
     },
     categoryId:{
-        type:String,
+        type:mongoose.Types.ObjectId,
         required:true,
         minlength:2,
         maxlength:1000
