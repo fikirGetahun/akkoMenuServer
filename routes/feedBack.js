@@ -6,11 +6,12 @@ const {Rating} = require('../model/rating');
 const {Answer} = require('../model/answer');
 const {Food} =require('../model/food')
 const { date } = require('joi');
-const auth = require('../middleware/auth');
+const auth = require( '../middleware/auth')
+
 // const { default: FoodLister } = require('../../components/foodLister');  
 
 
-router.post('/', async (req,res)=>{
+router.post('/',auth, async (req,res)=>{
     // this is the skeleten which the data is sent
     // body = {
     //  {
