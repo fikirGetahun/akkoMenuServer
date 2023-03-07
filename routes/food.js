@@ -177,10 +177,35 @@ router.get('/product/:id', async (req,res)=>{
     res.send(data)
 })
 
-
-router.get('/catWithProduct/:cid', async(req,res)=>{
-    var result;
+// router.get('/catWithProduct/:cid', async(req,res)=>{
+//     var result;
     
+//     let data = await Food.aggregate([
+//         {
+//           $match: {
+//             categoryId : mongoose.Types.ObjectId(req.params.cid)
+//           }
+//         },
+//         {
+//         $lookup:   
+ 
+//       {
+//         from: "prices",
+//         localField: "_id",
+//         foreignField: "foodId",
+//         as: "result"
+//       }
+//       }
+//       ]) 
+
+//     if(!data) return res.status(404).send('error: product not found')
+
+//     res.send(data)
+// })
+
+router.get('/catWithProduct/:cid/:pid', async(req,res)=>{
+    var result;
+    var s = Number(req.params.pid)
     let data = await Food.aggregate([
         {
           $match: {
@@ -196,11 +221,37 @@ router.get('/catWithProduct/:cid', async(req,res)=>{
         foreignField: "foodId",
         as: "result"
       }
+      } 
+      ]).skip(s).limit(2)
+
+      let data2 = await Food.aggregate([
+        {
+          $match: {
+            categoryId : mongoose.Types.ObjectId(req.params.cid)
+          }
+        },
+        {
+        $lookup:   
+ 
+      {
+        from: "prices",
+        localField: "_id",
+        foreignField: "foodId",
+        as: "result"
       }
+      } 
       ])
+       
+
+      if(data2.length < s){
+        let body = {
+            message: 400
+        }
+        return res.send(body)
+      }
 
     if(!data) return res.status(404).send('error: product not found')
-
+    //   console.log(data)
     res.send(data)
 })
 
