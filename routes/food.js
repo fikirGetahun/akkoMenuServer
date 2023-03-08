@@ -139,9 +139,26 @@ router.get('/:catId',  async (req, res)=>{
 })
 
 router.get('/search/:product', async (req,res)=>{
-     let data = await Food.find({name: { $regex: ".*"+req.params.product+".*" }    })
+    //  let data = await Food.find({name: { $regex: ".*"+req.params.product+".*" }    }).limit(3)
 
- 
+     let data = await Food.aggregate([
+      {
+        $match: {
+        
+          name: { $regex: ".*"+req.params.product+".*" }
+        }
+      },
+      {
+      $lookup:   
+
+    {
+      from: "prices",
+      localField: "_id",
+      foreignField: "foodId",
+      as: "result"
+    }
+    } 
+    ])
     // 
      if(!data) return res.status(404).send('error on search')
 
