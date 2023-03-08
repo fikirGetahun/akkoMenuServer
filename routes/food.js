@@ -281,7 +281,8 @@ router.delete('/:id', auth, async (req,res)=>{
     let price = await Price.findOneAndDelete({foodId: req.params.id})
     if(!price) return res.status(404).send('error: Cant delete unkown product')
 
-    res.send('Deleted!')
+    
+    res.send('Deleted!') 
 })
 
 module.exports=router;
