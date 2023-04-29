@@ -4,8 +4,7 @@ const logger = require('./logging');
 
 module.exports= async function db (){
 
-  const url='mongodb+srv://vercel-admin-user:Qwe%40123@cluster0.syzc5vp.mongodb.net/akkoMenu';  
-
+    const url='mongodb://localhost:27017/akkoMenu';  
     mongoose.set('strictQuery', true);
    
   await  mongoose.connect(url,{

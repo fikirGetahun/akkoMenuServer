@@ -110,29 +110,7 @@ router.get('/:catId',  async (req, res)=>{
  
 
 
-    // const data =await Food.aggregate([
-    //     {
-    //         $lookup:{
-    //             from: Category,
-    //             localField: "categoryId",
-    //             foreignField: "_id",
-    //             as: "foodWithCategory"
-    //         },
-    //         $unwind: "foodWithCategory",
-    //         $lookup:{
-    //             from: Price,
-    //             localField: "priceId",
-    //             foreignField: "foodId",
-    //             as: "foodWithCategoryWithPrice"
-    //         }
-    //     }
-    // ]).exec(function (err, res){
-    //     console.log("this is output ",JSON.stringify(res))
-    //     return res
-    // })
-
-     
-    // if(error) return res.status(400).send('404 error')
+ 
 
     res.send(JSON.stringify(data))
     
@@ -174,6 +152,17 @@ router.get('/', async (req,res)=>{
     res.send(data)
 })
 
+router.get('/count/count', async (req,res)=>{
+  const data = await Food.find().count()
+
+  if(!data) return res.status(404).send('error on db')
+
+  let ress = {
+    data : data
+  }
+
+  res.send(ress)
+})
  
 
 router.patch('/order/:id', async (req,res)=>{
@@ -281,8 +270,7 @@ router.delete('/:id', auth, async (req,res)=>{
     let price = await Price.findOneAndDelete({foodId: req.params.id})
     if(!price) return res.status(404).send('error: Cant delete unkown product')
 
-    
-    res.send('Deleted!') 
+    res.send('Deleted!')
 })
 
 module.exports=router;

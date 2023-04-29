@@ -1,11 +1,11 @@
-get http://localhost:3002/api/food/order/testx
+get http://localhost:3002/api/feedback/rattingAvgAllFoods
 
 
 
 
 
 ###
-
+,   {$group:{_id: '$_id', first: {"$rating":"$rating"} , total:{$sum : '$rating' } }} 
 post http://localhost:3002/api/food
 
 content-type: application/json

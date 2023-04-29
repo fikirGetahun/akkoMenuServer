@@ -2,6 +2,7 @@ const express = require('express')
 
 const auth = require( '../middleware/auth')
 const{ Category, Validate }= require( '../model/category')
+const {Food , Validation   } = require('../model/food')
 const router = express.Router()
 
 router.post('/',auth, async (req,res)=>{
@@ -81,6 +82,9 @@ router.patch('/:id',auth, async (req, res)=>{
 router.delete('/:id', auth, async (req,res)=>{
     // let data = await Category.findByIdAndRemove(req.params.id)
     let data = await Category.findByIdAndRemove(req.params.id)
+
+    let fo = await Food.deleteMany({categoryId: req.params.id})
+
     if(!data) return res.status(404).send('error: Cant delete unkown product')
 
     res.send('Deleted!')

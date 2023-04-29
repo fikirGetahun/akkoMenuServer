@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const Rating = mongoose.model('Rating', new mongoose.Schema({
         food_id:{
             required:true,
-            type:String
+            type:mongoose.Types.ObjectId
         },
         rating:{
             required: true,

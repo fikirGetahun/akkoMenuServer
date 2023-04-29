@@ -31,7 +31,7 @@ if(!validPassword) return res.status(400).send('Invalid email or password.');
    res.send(body);
 
 } catch (error) {
-    res.send(error.message+'ddd')
+    res.send(error.message)
 }
 
 });

@@ -1,4 +1,4 @@
-// const { default: axios } = require('axios');
+const { default: axios } = require('axios');
 const express = require('express')
 const router = express.Router()
 const {Price} = require('../model/price')
