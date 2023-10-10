@@ -43,7 +43,7 @@ router.post('/choose',auth, async(req,res)=>{
     res.send('200')
 })
 
-router.post('/rating',auth, async (req,res)=>{
+router.post('/rating', async (req,res)=>{
     body= req.body;  
     const data2 =  Rating({food_id:body.food_id, rating: body.rating, feedBack: body.feedBack, time: Date.now()})
     resultx = await data2.save();
@@ -54,7 +54,7 @@ router.post('/rating',auth, async (req,res)=>{
 })
 
 
-router.post('/answer',auth, async (req,res)=>{
+router.post('/answer' , async (req,res)=>{
     body= req.body;  
     // const data2 =  Answer({food_id: mongoose.Types.ObjectId(body.food_id) ,question_id: mongoose.Types.ObjectId(body.question_id), choose_id: mongoose.Types.ObjectId(body.choose_id), time: Date.now() })
 

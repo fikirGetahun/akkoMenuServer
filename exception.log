@@ -2729,3 +2729,43 @@ CastError: Cast to ObjectId failed for value "delReview63ff549dccb6cf9732ad4650"
     at model.Query.Query.then (C:\Users\Fetun\Documents\akko-menu\reactJs-skeleton\node_modules\mongoose\lib\query.js:5012:15)
     at runMicrotasks (<anonymous>)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+error: 10/10/2023 17:18:19 uncaughtException: Cannot find module 'axios'
+Require stack:
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\startup\routes.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\index.js
+Error: Cannot find module 'axios'
+Require stack:
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\startup\routes.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js:1:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+error: 10/10/2023 17:18:24 uncaughtException: Cannot find module 'axios'
+Require stack:
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\startup\routes.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\index.js
+Error: Cannot find module 'axios'
+Require stack:
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\startup\routes.js
+- C:\Users\Fetun\Documents\akko\akkoMenuServer\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Fetun\Documents\akko\akkoMenuServer\routes\price.js:1:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
